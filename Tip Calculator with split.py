@@ -8,6 +8,4 @@ tip = input("What percentage tip would you like to give? ")
 pax = input("How many people to split the bill? $")
 #per person
 bill_per_person = round((float(bill) *(1+int(tip)/100))/int(pax),2)
-
-print(f"Each person should pay ${bill_per_person
-upda
+print(f"Each person should pay ${bill_per_person}")
